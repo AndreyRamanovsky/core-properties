@@ -1,0 +1,8 @@
+spring.profiles.include: game
+
+test-properties:
+  service: "Core service properties. Should remain the same all the time"
+  service-extension: "Core service properties. Should be overridden by the extension properties"
+  environment: "Core service properties. Determined by the env"
+  shared: "Core service properties. Should be overridden by the shared properties"
+  game: "Core service properties. Should be overridden by the application-game properties"
