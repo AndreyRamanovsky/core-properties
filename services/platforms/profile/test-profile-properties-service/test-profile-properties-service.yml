@@ -1,4 +1,3 @@
-spring.profiles.include: game
 
 test-properties:
   service: "Profile service properties. Should remain the same all the time"
